@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+
+.unordered-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'lobster';
+  color: #0f172a;
+  text-align: center;
+}
+
+.unordered-list1 {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}

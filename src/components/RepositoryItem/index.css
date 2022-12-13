@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.repository-container {
+  background-color: #f8f8ff;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+
+  margin-bottom: 30px;
+}
+
+.list-container1 {
+  list-style-type: none;
+}
+
+.count {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.name {
+  font-family: 'roboto';
+  font-size: 19px;
+  font-weight: bold;
+  color: #e73959;
+}
+
+.stars {
+  color: rgb(214, 214, 59);
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 20px;
+}
+
+.fail-message {
+  color: #0f172a;
+  font-family: 'lobster';
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.failure {
+  height: 400px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
